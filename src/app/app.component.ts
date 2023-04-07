@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'chil-parent-relation';
+  data='X';
+  updateData(item:any){
+    console.warn(item)
+    this.data=item;
+  }
 }
